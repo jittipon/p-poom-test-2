@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { StyleClassModule } from 'primeng/styleclass';
+import { CardModule } from 'primeng/card';
 
 @Component({
   selector: 'app-root',

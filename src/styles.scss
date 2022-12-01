@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeflex/primeflex.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: rgb(71, 86, 122);
+}
+
+
+.nav {
+    // background-color: #3f51b5;
+    // color: #fff;
+    // padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+}

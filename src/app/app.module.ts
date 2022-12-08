@@ -13,6 +13,7 @@ import { PagetwoComponent } from './pagetwo/pagetwo.component';
 import { PagethreeComponent } from './pagethree/pagethree.component';
 import { ChipModule } from 'primeng/chip';
 import { ToastModule } from 'primeng/toast';
+import { ChartModule } from 'primeng/chart';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ToastModule } from 'primeng/toast';
     StyleClassModule,
     CardModule,
     ButtonModule,
-    ChipModule
+    ChipModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

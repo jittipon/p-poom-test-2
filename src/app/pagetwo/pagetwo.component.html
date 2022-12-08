@@ -15,7 +15,8 @@
                     <div class="flex align-items-start mb-5">
                         <img src="assets/joy.jpg" width="56" height="56" />
                         <div class="ml-3">
-                            <span class="block text-900 mb-1 text-xl font-medium">My social usage</span>
+                            <span class="block text-900 mb-1 text-xl font-medium">My social usage time in this
+                                time</span>
                             <p class="text-600 mt-0 mb-0">time usage in my social media</p>
                         </div>
                     </div>
@@ -60,6 +61,17 @@
                 </div>
             </div>
 
+
+        </div>
+
+        <div class="header">
+            <span>My stat in my game that i played</span>
+
+            <div class="mainContent">
+                <div class="chartArea">
+                    <p-chart type="radar" [data]="data" [options]="chartOptions" [style]="{'width': '40%'}"></p-chart>
+                </div>
+            </div>
 
         </div>
 
